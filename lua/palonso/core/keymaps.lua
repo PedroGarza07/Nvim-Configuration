@@ -14,6 +14,7 @@ keymap.set("n", "gi", vim.lsp.buf.implementation, { desc = "Ir a implementación
 keymap.set("n", "gr", vim.lsp.buf.references, { desc = "Mostrar referencias" })
 keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { desc = "Renombrar símbolo" })
 keymap.set("n", "<leader>e", vim.diagnostic.open_float, { desc = "Mostrar error flotante" })
+keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>", { desc = "Quitar highlight de búsqueda" })
 
 -- Mapeos generales para Telescope
 vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Ventana izquierda" })

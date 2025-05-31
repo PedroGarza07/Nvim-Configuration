@@ -19,7 +19,8 @@ require("lazy").setup({
     { import = "palonso.plugins.lsp" },    -- Config LSP
     { import = "palonso.plugins.colorscheme" },    -- Config colorscheme
     { import = "palonso.plugins.lualine" },    -- Config colorscheme
-    { import = "palonso.plugins.telescope" }    -- Config colorscheme
+    { import = "palonso.plugins.telescope" },    -- Config colorscheme
+    { import = "palonso.plugins.autopairs" }    -- Config colorscheme
     -- Puedes añadir más plugins aquí
   }
 })
