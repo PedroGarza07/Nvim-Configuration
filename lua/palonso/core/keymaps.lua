@@ -13,7 +13,7 @@ keymap.set("n", "gD", vim.lsp.buf.declaration, { desc = "Ir a declaración" })
 keymap.set("n", "gi", vim.lsp.buf.implementation, { desc = "Ir a implementación" })
 keymap.set("n", "gr", vim.lsp.buf.references, { desc = "Mostrar referencias" })
 keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { desc = "Renombrar símbolo" })
-keymap.set("n", "<leader>e", vim.diagnostic.open_float, { desc = "Mostrar error flotante" })
+keymap.set("n", "<leader>w", vim.diagnostic.open_float, { desc = "Mostrar error flotante" })
 keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>", { desc = "Quitar highlight de búsqueda" })
 keymap.set('n', '<leader>e', ':Neotree toggle<CR>', { noremap = true, silent = true })
 
