@@ -22,6 +22,7 @@ require("lazy").setup({
     { import = "palonso.plugins.telescope" },    -- Config colorscheme
     { import = "palonso.plugins.autopairs" },    -- Config colorscheme
     { import = "palonso.plugins.neo-tree" },    -- Config colorscheme
+    { import = "palonso.plugins.gitconflict" },    -- Config colorscheme
     -- Puedes añadir más plugins aquí
   }
 })
