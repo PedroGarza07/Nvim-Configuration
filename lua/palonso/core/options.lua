@@ -2,7 +2,7 @@
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.clipboard:append("unnamedplus")  -- set clipboard+=unnamedplus
-
+vim.opt.guifont = "JetBrains Mono:h14"
 vim.cmd("syntax on")  -- Lua no tiene equivalente directo
 
 vim.opt.tabstop = 4
